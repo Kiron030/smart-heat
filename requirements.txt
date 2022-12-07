@@ -1,0 +1,1 @@
+Anaconda environment 2.3.2 or older for stack of python modules. Might work without anaconda and manually installed packages.
