@@ -1,11 +1,45 @@
 # Importing required libraries such as 'sensor', 'controller' or 'time'.
-# test
-# Import or create Datasets (including Parameter) for the basic I/O-flow. Some ideas are following:
+  # For loading in the data from a sensor or via an API (e.g. on the weather) the following libraries are required:
+    # import sensor
+    # import controller
+    # import time
+    # import numpy as np
+    # import pandas as pd
+    # import matplotlib
+    # import seaborn as sns
+    # import sklearn
+    # import tensorflow as tf
+    # import keras
+    # import django  
+
+# Getting the INPUT Data
+  # 1. The data comes from a sensor (e.g. in the thermostat) and the data is controlled and send via
+    #  a Raspberry Pi, via WLAN, LAN or 4G/5G 
+  # 2. The data is scrapped from a webpage and is controlled and send via
+    #  an API (openweathermap.org, weather.gov, etc.)
+  # 3. The data is handcollected and combined in a database or an excel sheet
+
+# Possible Datasets for the Input-Side of the I/O-flow 
   ## Average temperature outside in location (Germany or Berlin) as a sin function over the year --> maybe even with Fourier Transformation for daily swings
   ## Flate or room temperature 
   ## State of the valve (how open, closed is it) for the information of the speed of the heating water and the amount of heat brough into the room 
 
-# Defining variables for the room temperature targets and the weather forecast service.
+# Defining variables 
+  # Temperature (outside temperature)
+  # Adress (location)
+  # DateTime (time and date)
+  # Room Temperature (temperature in the room)
+
+# Defining classes
+  # class Thermostat or Valve (state of the valve) 
+  # class Sensor
+  # class Room
+  
+  
+  
+    
+    
+  # Ideas for local scope for the room temperature targets and the weather forecast service.
 
 # Writing an update_temperature() function that reads the current room temperature via the sensor and adjusts the heating accordingly.
 
