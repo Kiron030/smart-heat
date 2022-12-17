@@ -35,11 +35,16 @@
   # class Sensor
   # class Room
   
+# Defining functions
+  # Writing a get_weather() function that retrieves the weather forecast.
+  # [Writing a get_energy_usage() function that retrieves the energy consumption and costs.]
+  # Writing a get_temperature() function that reads the current room temperature via the sensor.
+  # Writing a set_temperature() function that sets the desired room temperature.
+  # Writing a get_valve_settings() function that retrieves the current valve settings.
+  # Writing a set_valve_settings() function that changes the current state of the valve 
   
+
   
-    
-    
-  # Ideas for local scope for the room temperature targets and the weather forecast service.
 
 # Writing an update_temperature() function that reads the current room temperature via the sensor and adjusts the heating accordingly.
 
