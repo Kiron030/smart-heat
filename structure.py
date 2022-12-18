@@ -36,7 +36,8 @@
   # class Room
   
 # Defining functions
-  # Writing a get_weather() function that retrieves the weather forecast.
+  # INPUTS
+  #   Writing a get_weather() function that retrieves the weather forecast.
   # [Writing a get_energy_usage() function that retrieves the energy consumption and costs.]
   # Writing a get_temperature() function that reads the current room temperature via the sensor.
   # Writing a set_temperature() function that sets the desired room temperature.
